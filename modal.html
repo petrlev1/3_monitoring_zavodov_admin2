@@ -1,0 +1,53 @@
+<div id="add_edit_org" class="modal fade in" role="dialog" style="display: block; padding-right: 17px;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+
+<form action="/Organisation/Edit/41" data-ajax="true" id="form0" method="post" novalidate="novalidate">    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Редактирование организации</h4>               
+    </div>
+<input data-val="true" data-val-required="'Id' обязано быть непустым." id="Id" name="Id" type="hidden" value="41"><script src="/Scripts/jquery.min.js"></script>
+<script src="/Scripts/bootstrap.min.js"></script>
+<script src="/Scripts/jquery.validate.min.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <div id="orgCreateUpdate" class="formscont">
+        <div>
+            <p>
+                <label for="Name">Наименование юр. лица</label>
+            </p>
+            <input class="form1 valid" data-val="true" data-val-required="обязательное поле" id="Name" name="Name" type="text" value="dwrewr" aria-required="true" aria-describedby="Name-error" aria-invalid="false">
+            <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+        </div>
+        <div>
+            <p>
+                <label for="ShortName">Краткое наименование</label>
+            </p>
+            <input class="form1" data-val="true" data-val-required="обязательное поле" id="ShortName" name="ShortName" type="text" value="123">
+            <span class="field-validation-valid" data-valmsg-for="ShortName" data-valmsg-replace="true"></span>            
+        </div>
+        <div>
+            <p>
+                <label for="OrganisationCode">Код организации</label>
+            </p>
+            <input class="form1" id="OrganisationCode" name="OrganisationCode" type="text" value="">        
+        </div>
+        <div class="modal-footer">                     
+            <a><input type="submit" class="btn-success btn-lg" style="float:left;" value="Сохранить" onclick="submitFormData(
+                        '#orgCreateUpdate', 
+                        'Organisation',
+                        'Edit'); return false;"></a>            
+            <button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+        </div>
+    </div>
+
+
+
+
+</form>
+</div>
+    </div>
+</div>

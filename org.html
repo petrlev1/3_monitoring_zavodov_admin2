@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html>
+<head>  
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="http://89.31.20.102:39000/Content/css/AdminStyle/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://89.31.20.102:39000/Content/css/AdminStyle/style.css" rel="stylesheet" type="text/css">
+
+    <script src="http://89.31.20.102:39000/Scripts/admin.js"></script>
+    <script src="http://89.31.20.102:39000/Scripts/jquery.min.js"></script>
+    <script src="http://89.31.20.102:39000/Scripts/bootstrap.min.js"></script>
+    <script src='http://89.31.20.102:39000/Scripts/jquery.validate.min.js'></script>
+    <script src='http://89.31.20.102:39000/Scripts/jquery.validate.unobtrusive.min.js'></script>
+    
+    
+    <title>Список организаций</title>
+
+</head>
+<body>
+    <div class="content_all">
+
+        <div class="head">
+            <ul>
+                <li style="background-color:#fff; width:1px;">
+                    <div class="logo">
+                        <a href="http://89.31.20.102:39000/"><img src="http://89.31.20.102:39000/Content/css/AdminStyle/img/logo.png"></a>
+                    </div>
+                    <a href="http://89.31.20.102:39000/" class="logo_tit">Мониторинг заводов</a>
+                </li>
+                <li style="text-align:right"><div class="head_menu"><a href="http://89.31.20.102:39000/Account/Logout">test999 [Выйти]</a></div></li>
+            </ul>
+        </div>
+
+        <nav>
+            
+<ul>
+    <li class="active-it"><a href="http://89.31.20.102:39000/Organisation">Организации</a></li>
+    <li class="menu_lines2"></li>
+    <li class=""><a href="http://89.31.20.102:39000/Factory">Заводы</a></li>
+    <li class="menu_lines2"></li>
+    <li class=""><a href="http://89.31.20.102:39000/Box">Точки учета</a>   </li>
+    <li class="menu_lines2"></li>
+    <li class=""><a href="http://89.31.20.102:39000/Line">Линии</a></li>
+    <li class="menu_lines2"></li>
+    <li class=""><a href="http://89.31.20.102:39000/UserBox">Точки учета пользователей</a> </li>
+</ul>
+        </nav>
+        <div class="content">
+            <div class="cont_table">
+                <link href="http://89.31.20.102:39000/Content/css/pagedList.css" rel="stylesheet"/>
+
+
+
+
+<div id="add_edit_org" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            rhrhr
+        </div>
+    </div>
+</div>
+
+<div id="del_org" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+
+
+<div class="table1">
+
+    <ul class="thead">
+        <li>
+            <h1>Организация</h1>           
+            <a class="btn1_lg" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Create" style="margin-top:10px; margin-bottom:10px; display:inline-block">Добавить организацию</a>
+        </li>
+        <li>Краткое наименование</li>
+        <li style="text-align:center; width:1px;">Ред.</li>
+    </ul>
+
+
+        <ul>
+            <li>213</li>
+
+            <li>1</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/44"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/44"> </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>321</li>
+
+            <li>321</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/42"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/42"> </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>456</li>
+
+            <li>123</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/41"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/41"> </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>qwerty</li>
+
+            <li>qwerty</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/43"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/43"> </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>TestOrg1</li>
+
+            <li>Test</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/28"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/28"> </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>zxcvbn</li>
+
+            <li>zxcvb</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/40"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/40"> </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>ОАО РосСпиртПром</li>
+
+            <li>РСП</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/1"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/1"> </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>ОАО СЭПТ</li>
+
+            <li>CЭПТ</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/20"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/20"> </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>Центр ИКТ</li>
+
+            <li>ЦИКТ</li>
+            <li>
+                <div class="ic_block">
+
+                    <a class="ic_edit" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Edit/17"> </a>
+
+
+                    <a class="ic_del" data-target="#del_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Delete/17"> </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="table_foot">
+        <a class="btn1_lg" data-target="#add_edit_org" data-toggle="modal" href="http://89.31.20.102:39000/Organisation/Create" id="qwerty" style="margin-top:10px; margin-bottom:10px; display:inline-block">Добавить организацию</a>
+    </div>
+
+
+<br />
+<div class="pagination">
+    
+</div>
+
+<script type="text/javascript">
+    $(window).ready(addSpanToBtn1());
+</script>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="http://89.31.20.102:39000/bundles/jqueryval?v=oVaFttMvUYyonCNIogn7MPxwMbLHXa8qO63ReHpGTRc1"></script>
